@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: saas-static-site
-          image: registry.digitalocean.com/shagun-do-prep/saas-static-site   
+          image: registry.digitalocean.com/shagun-do-prep/saas-static-site:latest   
           ports:
             - containerPort: 80
           resources:
